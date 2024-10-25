@@ -1,38 +1,10 @@
 # Reddish - A Reddit Clone - MERN
 
-[Reddit](https://www.reddit.com) clone (a social media site) made w/ MERN stack & Redux.
-
-## Demo
-
-[Deployed on Netlify (front-end) & Heroku (back-end)](https://reddish.netlify.app)
-
-## Built using
-
-#### Front-end
-
-- [ReactJS](https://reactjs.org/) - Frontend framework
-- [Redux w/ useDispatch & useSelector hooks](https://redux.js.org/) - For state management
-- [Redux Thunk](https://github.com/reduxjs/redux-thunk) - For asynchronous actions
-- [React Router](https://reactrouter.com/) - For general routing & navigation
-- [Formik](https://formik.org/) - For flexible forms
-- [Material-UI w/ lots of CSS customisations](https://material-ui.com/) - UI library
-- [Yup](https://github.com/jquense/yup) - For form validation
-
-#### Back-end
-
-- [Node.js](https://nodejs.org/en/) - Runtime environment for JS
-- [Express.js](https://expressjs.com/) - Node.js framework, makes process of building APIs easier & faster
-- [MongoDB](https://www.mongodb.com/) - Database to store document-based data
-- [Mongoose](https://mongoosejs.com/) - MongoDB object modeling for Node.js
-- [Cloudinary](https://cloudinary.com/) - For image uploading & related API
-- [JSON Web Token](https://jwt.io/) - A standard to secure/authenticate HTTP requests
-- [Bcrypt.js](https://www.npmjs.com/package/bcryptjs) - For hashing passwords
-- [Validator.js](https://www.npmjs.com/package/validator) - For validation of JSON data
-- [Mongoose Unique Validator](https://www.npmjs.com/package/mongoose-unique-validator) - Plugin for better error handling of unique fields within Mongoose schema
-- [Dotenv](https://www.npmjs.com/package/dotenv) - To load environment variables from a .env file
+Discussion Field using MERN stack and Elastic Search.
 
 ## Features
 
+- Elastic Search
 - Authentication (login/register with username-password)
 - CRUD posts & comments
 - Add posts in the form of text, link or image
